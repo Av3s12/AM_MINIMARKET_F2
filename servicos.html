@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A&M MiniMarket</title>
+</head>
+<body>
+    <header>
+        <h2>Serviços</h2>
+        <div id="carrinho">
+			<left><img src="IMAGES/CARRINHO2.jpg"></left>		
+            <p><h5>Carrinho</h5></p>
+       </div>
+    </header>								
+    <div class="produtos-container">
+        <div class="servico">
+            <h3>1- Entrega Agendada</h3>
+			<p>Entrega programada de acordo com a data e horários disponíveis.</p>
+            <p>Valor da Entrega R$ 14,99</p>
+            <label>DataEntrega:</label>
+            <input type="datetime-local"    name="DataEntrega" required>
+        </div>
+        <div class="servico">
+            <h3>2- Entrega A&M JÁ</h3>
+			<p>Entrega em até 30min.</p>
+            <p>Valor da Entrega R$ 16,99</p>
+        </div>
+        <div class="servico">
+            <h3>3- Retirada em Loja</h3>
+			<p>Entrega em até 2hrs.</p>
+            <p>Gratuita</p>
+            <label>DataRetirada:</label>
+            <input type="datetime-local"    name="DataRetirada" required>            
+        </div>		
+    </div>
+    <br></br>
+    <div class="Retornar">
+        <button onclick="window.open('','_self').close()">Retornar</button>
+    </div>	
+    <style>
+       div.servico {
+	   width: 300px;
+	   display: block;
+      }
+    </style>	
+    <footer>
+        <p>&copy; 2025 A&M MiniMarket Online</p>
+    </footer>
+</body>
+</html>

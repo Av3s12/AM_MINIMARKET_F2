@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>A&M MiniMarket</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .classe_botao
+        {
+           background-color: whitesmoke;
+           color:blue;
+           border-width: thin;
+        }
+    </style>    
+</head>
+<body>
+        <div class="sectionimage">
+            <center><h1>A&M MiniMarket</h1></center>
+			<center><img src="IMAGES/MINI_MARKET.jpg" width="1000" height="300"></center>
+        </div>		
+     <!-- Links de Navegação -->
+        <div class="Menu">
+            <br>							
+			</br>		
+            <h4>MENU</h4>
+            <ul>
+                <li><h4><a>CATEGORIAS</a></h4>
+				    <ul>
+	                   <li><a href="frutas.html" target="_blank">Frutas e Verduras</a></li>
+					</ul>
+					<ul>
+   			           <li><a href="produtos.html" target="_blank">Produtos Alimenticios</a></li>
+					</ul>
+					<ul>
+					   <li><a href="bebidas.html" target="_blank">Bebidas</a></li>
+					</ul>
+                    <ul>						 
+					   <li><a href="higiene.html" target="_blank">Higiene e Limpeza</a></li>
+ 	       		    </ul>
+				</li>
+                <li><button onclick="func_carousel()"  class="classe_botao">Produtos Carousel</a></li>
+                <li><button onclick="func_services()"  class="classe_botao">Serviços</a></li>
+                <li><button onclick="func_cadastros()" class="classe_botao">Cadastros</a></li>
+                <li><button onclick="func_contatos()"  class="classe_botao">Contatos</button></li>
+				<li><button onclick="func_close()"     class="classe_botao">Sair</button></li>
+            </ul>
+        </div>		
+<footer>
+    <div class="footer-content">
+        <!-- Informações de Contato -->		
+        <div class="footer-section contato">
+            <br>							
+		    </br>
+            <br>							
+            </br>		
+            <ul><li><h4>CONTATOS</h4></li>
+               <p>Telefone: (21) 1234-5678</p>
+               <p>E-mail: contato@MiniMarket.com</p>
+               <p>Endereço: Rua MiniMarket, 123 - São Paulo - SP</p>
+			</ul>
+        </div>
+        <!-- Informações Legais -->
+        <div class="footer-section legal">
+            <ul><li><h4>INFORMAÇÕES LEGAIS</h4></li>
+               <p>&copy; 2025 A&M MiniMarket. Todos os direitos reservados.</p>
+               <p>Desenvolvido por [A&M]</p>
+			</ul>
+</footer>
+<script>
+    function func_services()
+    {
+       window.open('servicos.html')
+    }
+</script>
+<script>
+    function func_cadastros()
+    {
+       window.open('cadastro.html')
+    }
+</script>
+<script>
+    function func_contatos()
+     {
+        alert("Contatos: contato@MiniMarket.com< | (21) 1234-5678");
+     }
+</script>
+<script>
+    function func_carousel()
+    {
+       window.open('Product_Carousel.html')
+    }
+</script>
+<script>
+    function func_close()
+    {
+       window.close()
+    }
+</script> 
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A&M MiniMarket</title>
+</head>
+<body>
+     <h2>Cadastro de Clientes</h2>
+     <form action="https://formsubmit.co/magdydelrosso@gmail.com" method="POST" >
+        <fieldset>
+             <legend>Informações Pessoais</legend>
+             <label>E-mail:</label>
+             <input type="email"    name="email"               placeholder="E-mail" required><br></br>
+             <label>Senha :</label>
+             <input type="password" name="senha" minlength="8" placeholder="Senha"><br></br>
+             <label>CPF   :</label>
+             <input type="text"     name="CPF"                 placeholder="CPF"  ><br></br>
+             <label>Nome  :  </label>
+             <input type="text"     name="nome"                placeholder="Nome" ><br></br>
+             <label>Sexo:</label><br>
+             <input  type="radio" id="masculino" name="sexo" value="Masculino">
+             <label for="masculino">Masculino</label><br>
+             <input  type="radio" id="feminino" name="sexo" value="Feminino">
+             <label for="feminino">Feminino</label>             
+        </fieldset>
+        <br></br>
+        <button type="submit">Send</button>
+        <button onclick="window.open('','_self').close()">Retornar</button>
+      </form>
+</body>
+</html>
